@@ -12,8 +12,6 @@ This project serves as a comprehensive guide to building an end-to-end data engi
 
 ## System Architecture
 
-![System Architecture](https://github.com/airscholar/e2e-data-engineering/blob/main/Data%20engineering%20architecture.png)
-
 The project is designed with the following components:
 
 - **Data Source**: using `randomuser.me` API to generate random user data for our pipeline.
@@ -51,10 +49,10 @@ The project is designed with the following components:
     docker-compose up
     ```
 
-4. open airflow webserver and run the dag:
+4. Open airflow webserver and run the dag:
 
-5. after running the dag a topic is made on kafka and you can see the data streaming to kafka from the control center
+5. After running the dag a topic is made on kafka and you can see the data streaming to kafka from the control center
 
-6. then run the other script that creates the connection from spark to Kafka to stream the data to cassandra database
+6. Then run the other script that creates the connection from spark to Kafka to stream the data to cassandra database
 
 
